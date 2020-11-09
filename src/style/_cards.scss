@@ -1,0 +1,35 @@
+$blue: #242C44;
+$white: #fff;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.App {
+    background-color: #F3F3FB;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 350px;
+    padding: 75px 0px;
+}
+.cards {
+    box-sizing: border-box;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.178);
+    border-radius: 15px;
+    width: 370px;
+    height: 80vh;
+}
+.component {
+    margin: 50px 80px;
+}
+#free {
+    background-color: $white;
+    color: $blue;
+}
+#pro {
+    background-color: $blue;
+    color: $white;
+}
